@@ -1329,13 +1329,13 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-plugin/-/eslint-plugin-1.1.0.tgz#e42b1bef12d2415411519fd528e64b593b1363dc"
   integrity sha512-W/J0fNYVO01tioHjvYWQ9m6RgndVtbElzYozBq1ZPrHO/iCzlqoySHl4gO/fpCl9QEFjvJfjPgtPMTMlsoq5DQ==
 
-"@react-native-windows/cli@0.65.1":
-  version "0.65.1"
-  resolved "https://registry.yarnpkg.com/@react-native-windows/cli/-/cli-0.65.1.tgz#0f987f22063a6d18bf0bbbf398495b687d64d083"
-  integrity sha512-IqReN23gOZWfy6Q70HHY/guPFeKdb6XvyqWR5qVh4LvS/S/csZ2cajsZd48A+aKBaW5buAPrcAtQAB/Lo4JsSg==
+"@react-native-windows/cli@0.65.2":
+  version "0.65.2"
+  resolved "https://registry.yarnpkg.com/@react-native-windows/cli/-/cli-0.65.2.tgz#92b2e5a7028dc60051aa2330445eee51b9af9134"
+  integrity sha512-KTtc11rjinVHqGw0HqHNKFP2Ex34A8T3DLLGRiAQ/XHcN5jBXGdPDW9zoRZh9bUpk9XMb2Q/Cn3YAjwQd56czg==
   dependencies:
-    "@react-native-windows/package-utils" "0.65.0"
-    "@react-native-windows/telemetry" "0.65.0"
+    "@react-native-windows/package-utils" "0.65.1"
+    "@react-native-windows/telemetry" "0.65.1"
     "@xmldom/xmldom" "^0.7.5"
     chalk "^4.1.0"
     cli-spinners "^2.2.0"
@@ -1353,26 +1353,26 @@
     xml-parser "^1.2.1"
     xpath "^0.0.27"
 
-"@react-native-windows/find-repo-root@0.65.0":
-  version "0.65.0"
-  resolved "https://registry.yarnpkg.com/@react-native-windows/find-repo-root/-/find-repo-root-0.65.0.tgz#e542a39cb322ba338bae3151220b743db92ed13b"
-  integrity sha512-79CmialL2ee6nD+k1/AtpSYwAxCDBEn7zfJb0KU5Hjk/SXaKdPJF6kRRG0T+A3OaP6PVofDUSkQ0yhfEgQ1AxA==
+"@react-native-windows/find-repo-root@0.65.1":
+  version "0.65.1"
+  resolved "https://registry.yarnpkg.com/@react-native-windows/find-repo-root/-/find-repo-root-0.65.1.tgz#415a5bcd13171049aba2da2ba6c4cd07af10d305"
+  integrity sha512-hOyPzHxLz01hM4qEOePTHEkaZtk85H3pG+hp4ut6QwUvUgRP8IApGM1syS3yLd7HF9uIMWBfsI9az5Ey866pZA==
   dependencies:
     find-up "^4.1.0"
 
-"@react-native-windows/package-utils@0.65.0":
-  version "0.65.0"
-  resolved "https://registry.yarnpkg.com/@react-native-windows/package-utils/-/package-utils-0.65.0.tgz#48c7aaddc350d05a7bbcde242e6940d20221b238"
-  integrity sha512-sRKdB73NzjDTFkrfE1IH91zsbwYlzn9SDY6u4KC5Q+aaBLam5WPlbtm2+HukNvY+0PFhaTni6c6FxEI6m5JXRA==
+"@react-native-windows/package-utils@0.65.1":
+  version "0.65.1"
+  resolved "https://registry.yarnpkg.com/@react-native-windows/package-utils/-/package-utils-0.65.1.tgz#0d93de514382c749b513f8910fb5a62e7beb2750"
+  integrity sha512-q85JJY3OU1vDe7u7OD132PclGQJOjpjf7UaGW0CZhg/mRMEGBZlOqnrYKgFW6R7dRmA66GaNo63Oak1s23P8HA==
   dependencies:
-    "@react-native-windows/find-repo-root" "0.65.0"
+    "@react-native-windows/find-repo-root" "0.65.1"
     get-monorepo-packages "^1.2.0"
     lodash "^4.17.15"
 
-"@react-native-windows/telemetry@0.65.0":
-  version "0.65.0"
-  resolved "https://registry.yarnpkg.com/@react-native-windows/telemetry/-/telemetry-0.65.0.tgz#821ae46697d64848282a46db9c9c2f99f8c9638a"
-  integrity sha512-tS0JfRinTvx3B/2CxgzO2zgcjTrGIfj6cFiwwOD28tzJGr0FWOUYvgtfxdcnXRSabJ4NTbpBxdo0oP9TvvSSmw==
+"@react-native-windows/telemetry@0.65.1":
+  version "0.65.1"
+  resolved "https://registry.yarnpkg.com/@react-native-windows/telemetry/-/telemetry-0.65.1.tgz#de40ffe7ea374e99c2a5f94c2dc2f9c6f8326ddc"
+  integrity sha512-QIZICmLPWkW+IU3GaSXo34jBIUJs/gOTCeWL9JBO5Aw02Uv650zVdFBwgZtXJV9zLGXPZ/M3q6H8xSwHG0tugg==
   dependencies:
     applicationinsights "^1.8.8"
 
@@ -2057,9 +2057,9 @@ babel-preset-jest@^26.6.2:
     babel-preset-current-node-syntax "^1.0.0"
 
 balanced-match@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
-  integrity sha1-ibTRmasr7kneFk6gK4nORi1xt2c=
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.2.tgz#e83e3a7e3f300b34cb9d87f615fa0cbf357690ee"
+  integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
 base64-js@^1.1.2, base64-js@^1.2.3, base64-js@^1.5.1:
   version "1.5.1"
@@ -3387,9 +3387,9 @@ glob-parent@^5.0.0:
     is-glob "^4.0.1"
 
 glob@^7.0.0, glob@^7.1.1, glob@^7.1.2, glob@^7.1.3, glob@^7.1.4, glob@^7.1.6:
-  version "7.1.6"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.6.tgz#141f33b81a7c2492e125594307480c46679278a6"
-  integrity sha512-LwaxwyZ72Lk7vZINtNNrywX0ZuLyStrdDtabefZKAY5ZGJhVtgdznluResxNmPitE0SAO+O26sWTHeKSI2wMBA==
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.2.0.tgz#d15535af7732e02e948f4c41628bd910293f6023"
+  integrity sha512-lmLf6gtyrPq8tTjSmrO94wBeQbFR3HbLHbuyD69wuyQkImp2hWqMGB47OX65FBkPffO641IP9jWa1z4ivqG26Q==
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"
@@ -3709,6 +3709,13 @@ is-core-module@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.2.0.tgz#97037ef3d52224d85163f5597b2b63d9afed981a"
   integrity sha512-XRAfAdyyY5F5cOXn7hYQDqh2Xmii+DEfIcQGxK/uNwMHhIkPWO0g8msXcbzLe+MpGoR951MlqM/2iIlU4vKDdQ==
+  dependencies:
+    has "^1.0.3"
+
+is-core-module@^2.8.0:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.8.1.tgz#f59fdfca701d5879d0a6b100a40aa1560ce27211"
+  integrity sha512-SdNCUs284hr40hFTFP6l0IfZ/RSrMXF3qgoRHd3/79unUTvrFO/JoXwkGm+5J/Oe3E/b5GsnG330uUNgRpu1PA==
   dependencies:
     has "^1.0.3"
 
@@ -5454,6 +5461,11 @@ path-parse@^1.0.6:
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
 
+path-parse@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
+
 path-type@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-3.0.0.tgz#cef31dc8e0a1a3bb0d105c0cd97cf3bf47f4e36f"
@@ -5649,17 +5661,17 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-native-windows@0.65.4:
-  version "0.65.4"
-  resolved "https://registry.yarnpkg.com/react-native-windows/-/react-native-windows-0.65.4.tgz#706cf8fc5fe94405e0081d52f656f8bdf564049e"
-  integrity sha512-qKTeZ68pQn35LI+dPdHGvgn/jJc0x2xbWT2wTfWbrk9XatNq1qXeAxAeD/7iYxsLSdCnOpbrfLbZ5M4nHM70jQ==
+react-native-windows@0.65.7:
+  version "0.65.7"
+  resolved "https://registry.yarnpkg.com/react-native-windows/-/react-native-windows-0.65.7.tgz#f8d533c7fd79e51a88e28d9d87110b1020080aae"
+  integrity sha512-JB+AafCSnLmWWF/rFhrrVRkDS0eDPyMFaI0aIUS82THGNPlt9vzsg70FxBkCoSdybNkJ6dR49Zc4Dbb37EV5Fg==
   dependencies:
     "@babel/runtime" "^7.0.0"
     "@jest/create-cache-key-function" "^27.0.1"
     "@react-native-community/cli" "^6.0.0"
     "@react-native-community/cli-platform-android" "^6.0.0"
     "@react-native-community/cli-platform-ios" "^6.0.0"
-    "@react-native-windows/cli" "0.65.1"
+    "@react-native-windows/cli" "0.65.2"
     "@react-native/assets" "1.0.0"
     "@react-native/normalize-color" "1.0.0"
     "@react-native/polyfills" "1.0.0"
@@ -5697,10 +5709,10 @@ react-native-xaml@*:
     "@types/react-native" "*"
     typescript "^4.4.3"
 
-react-native@0.65.1:
-  version "0.65.1"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.65.1.tgz#bd8cd313e0eb8ddcf08e61e3f8b54b7fc31a418c"
-  integrity sha512-0UOVSnlssweQZjuaUtzViCifE/4tXm8oRbxwakopc8GavPu9vLulde145GOw6QVYiOy4iL50f+2XXRdX9NmMeQ==
+react-native@0.65.2:
+  version "0.65.2"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.65.2.tgz#5d580ffe7b64c4966e6178a910aeefd3b40d4fdb"
+  integrity sha512-0pzZFmSv38691PB2Zj2JE3x+57a8vdgGeUw2ai0MR3p6psdRes3BBR8miEv/gB7fgFKNDKdRJGDuyFVioKN1jA==
   dependencies:
     "@jest/create-cache-key-function" "^27.0.1"
     "@react-native-community/cli" "^6.0.0"
@@ -5971,7 +5983,16 @@ resolve-url@^0.2.1:
   resolved "https://registry.yarnpkg.com/resolve-url/-/resolve-url-0.2.1.tgz#2c637fe77c893afd2a663fe21aa9080068e2052a"
   integrity sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
 
-resolve@^1.1.6, resolve@^1.10.0, resolve@^1.12.0, resolve@^1.14.2, resolve@^1.18.1:
+resolve@^1.1.6:
+  version "1.21.1"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.21.1.tgz#1a88c73f5ca8ab0aabc8b888c4170de26c92c4cc"
+  integrity sha512-lfEImVbnolPuaSZuLQ52cAxPBHeI77sPwCOWRdy12UG/CNa8an7oBHH1R+Fp1/mUqSJi4c8TIP6FOIPSZAUrEQ==
+  dependencies:
+    is-core-module "^2.8.0"
+    path-parse "^1.0.7"
+    supports-preserve-symlinks-flag "^1.0.0"
+
+resolve@^1.10.0, resolve@^1.12.0, resolve@^1.14.2, resolve@^1.18.1:
   version "1.20.0"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.20.0.tgz#629a013fb3f70755d6f0b7935cc1c2c5378b1975"
   integrity sha512-wENBPt4ySzg4ybFQW2TT1zMQucPK95HSh/nq2CFTZVOGut2+pQvSsgtda4d26YrYcr067wjbmzOG8byDPBX63A==
@@ -6204,9 +6225,9 @@ shell-quote@^1.6.1:
   integrity sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg==
 
 shelljs@^0.8.4:
-  version "0.8.4"
-  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.8.4.tgz#de7684feeb767f8716b326078a8a00875890e3c2"
-  integrity sha512-7gk3UZ9kOfPLIAbslLzyWeGiEqx9e3rxwZM0KE6EL8GlGwjym9Mrlx5/p33bWTu9YG6vcS4MBxYZDHYr5lr8BQ==
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.8.5.tgz#de055408d8361bed66c669d2f000538ced8ee20c"
+  integrity sha512-TiwcRcrkhHvbrZbnRcFYMLl30Dfov3HKqzp5tO5b4pt6G/SezKcYhmDg15zXVBswHmctSAQKznqNW2LO5tTDow==
   dependencies:
     glob "^7.0.0"
     interpret "^1.0.0"
@@ -6573,6 +6594,11 @@ supports-hyperlinks@^2.0.0:
   dependencies:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
+
+supports-preserve-symlinks-flag@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
+  integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
 symbol-tree@^3.2.4:
   version "3.2.4"
